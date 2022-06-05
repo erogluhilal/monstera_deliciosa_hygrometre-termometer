@@ -162,8 +162,7 @@ Monstera Deliciosa bitkisini hayatta tutabilmek için uygun nemin ve sıcaklığ
 
      [![Mail Blok Diyagram](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/blok_figure5.png?raw=true)](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/blok_figure5.png?raw=true)
 
-```{=html}
-<!-- -->
+
 -   Mail Blok diyagramı gösterilmektedir. Gerçek zaman bigisi ve istenilen tarih/ saat bilgisine göre e mail atılacaktır. Sent butonu mail gönderildiğinde aktif olacaktır.
 
 [![Send e mail](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/figure11.png?raw=true)](images/figure11.png)
