@@ -11,7 +11,8 @@ output:
 
 # Monstera Deliciosa Higrometre ve Termometre Otomasyon Sistemi
 
-## ![](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/monstera_deliciosa_figure1.png?raw=true)Monstera Deliciosa (Deve Tabanı )Bitkisi
+## ![](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/monstera_deliciosa_figure1.png?raw=true)
+Monstera Deliciosa (Deve Tabanı )Bitkisi
 
 Monstera Deliciosa diğer ismiyle Deve Tabanı bitkisinin yetişebilmesi için uygun ortam şartları sağlanmalıdır. Bu bitkinin yaşayabilmesi için en önemli etken nem ve sıcaklıktır. Monstera Deliciosa, Amerika'nın tropikal bölgelerine özgüdür. Monstera bitkileri tropikal koşulları tercih eder. İdeal olarak nem %40-%50 ve sıcaklık 77°F ila 86°F arasındadır. Haftada bir kez sulanması gereklidir.
 
@@ -159,8 +160,10 @@ Monstera Deliciosa bitkisini hayatta tutabilmek için uygun nemin ve sıcaklığ
 
 -    Nem verisi için while bloğunun için case eklenmiştir. Gerekli karşılaştırma operatörleri ve VISA okuma, yazma blokları eklenmiştir. Sensördeki veriler seri portta okunurken 'H' ile algıladığı için VISA bloğunda nem için'H' kullanılmıştır. Case bloğunun içerisine humidity indikatörü , higrometre nesnesi, wave chart ve kontrol sistem mekanizması için nemlendirici, nem alıcı gibi gerekli butonlar konulmuştur.
 
-    [![Mail Blok Diyagramı](blok_figure5.png)](images/blok_figure5.png)
+     [![Mail Blok Diyagram](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/blok_figure5.png?raw=true)](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/blok_figure5.png?raw=true)
 
+```{=html}
+<!-- -->
 -   Mail Blok diyagramı gösterilmektedir. Gerçek zaman bigisi ve istenilen tarih/ saat bilgisine göre e mail atılacaktır. Sent butonu mail gönderildiğinde aktif olacaktır.
 
 [![Send e mail](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/figure11.png?raw=true)](images/figure11.png)
