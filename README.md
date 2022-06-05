@@ -145,7 +145,7 @@ Monstera Deliciosa bitkisini hayatta tutabilmek için uygun nemin ve sıcaklığ
 
 -   **Seri Porta T, H yazılması halinde sensörden verilerin okunması sağlanmıştır.**
 
-[![DHT 11 Arduino Nano Bağlantı Şeması](figure10.jpg){width="268"}](images/figure10.jpg)
+[![DHT 11 Arduino Nano Bağlantı Şeması](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/figure10.jpg?raw=true){width="247"}](images/figure10.jpg)
 
 ## Monstera Deliciosa Nem & Sıcaklık Uygulaması Blok Diyagram
 
@@ -153,9 +153,9 @@ Monstera Deliciosa bitkisini hayatta tutabilmek için uygun nemin ve sıcaklığ
 
 -   Seri Port VISA kullanılarak sisteme entegre edilmiştir. Sensörden alınan sıcaklık ve nem verisi için while bloğu oluşturulmuştur. Sıcaklık için while bloğunun için case eklenmiştir. Gerekli karşılaştırma operatörleri ve VISA okuma , yazma blokları eklenmiştir. Sensördeki veriler seri portta okunurken 'T' ile algıladığı için VISA bloğunda sıcaklık için'T' kullanılmıştır. Case bloğunun içerisine temperature indikatörü, termometre nesnesi, wave chart ve kontrol sistem mekanizması için soğutucu, ısıtıcı gibi boolean operatörleri konulmuştur.
 
-[![Sıcaklık Blok Diyagramı](blok_figure2.png)](images/blok_figure2.png)
+[![Sıcaklık Blok Diyagramı](https://raw.githubusercontent.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/main/images/blok_figure2.png)](images/blok_figure2.png)
 
-[![Nem Blok Diyagramı](blok_figure3.png)](images/blok_figure3.png)
+[![Nem Blok Diyagramı](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/blok_figure3.png?raw=true)](images/blok_figure3.png)
 
 -    Nem verisi için while bloğunun için case eklenmiştir. Gerekli karşılaştırma operatörleri ve VISA okuma, yazma blokları eklenmiştir. Sensördeki veriler seri portta okunurken 'H' ile algıladığı için VISA bloğunda nem için'H' kullanılmıştır. Case bloğunun içerisine humidity indikatörü , higrometre nesnesi, wave chart ve kontrol sistem mekanizması için nemlendirici, nem alıcı gibi gerekli butonlar konulmuştur.
 
@@ -163,7 +163,7 @@ Monstera Deliciosa bitkisini hayatta tutabilmek için uygun nemin ve sıcaklığ
 
 -   Mail Blok diyagramı gösterilmektedir. Gerçek zaman bigisi ve istenilen tarih/ saat bilgisine göre e mail atılacaktır. Sent butonu mail gönderildiğinde aktif olacaktır.
 
-[![Send e mail](figure11.png)](images/figure11.png)
+[![Send e mail](https://github.com/erogluhilal/monstera_deliciosa_hygrometre-termometer/blob/main/images/figure11.png?raw=true)](images/figure11.png)
 
 -   Gerekli SMTP mail blok bilgileri gösterilmiştir.
 
